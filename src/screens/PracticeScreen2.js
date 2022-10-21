@@ -36,12 +36,12 @@ return (<View>
         change("green",FACTOR)
     }} decrease={() => {
         change("green", FACTOR*-1) }}/>
+
     <ReusableComp name="Blue" increase={() => {
         change("blue",FACTOR)
     }} decrease={() => {
         change("blue", FACTOR*-1)
     }} />
-    
     <View style={{height:100 , width:100, backgroundColor:`rgb(${red},${green},${blue})`}} />
     </View>)
 }

@@ -5,11 +5,11 @@ const ReusableComp = (props)=>{
     
     return (
         <View style={{marginTop:30 , marginBottom:30}}>
-            <Text>{name}</Text>
+            <Text>{props.name}</Text>
             <Button title= {`Increase ${props.name}`} onPress={()=>{
                    props.increase()
             }}  />
-            <Button title= {`Decraese ${name}`} onPress={()=>{
+            <Button title= {`Decraese ${props.name}`} onPress={()=>{
                     props.decrease()
             }}  />
         </View>
