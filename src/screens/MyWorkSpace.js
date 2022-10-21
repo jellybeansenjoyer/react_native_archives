@@ -5,22 +5,22 @@ const MyWorkSpace = (props)=>{
     return (
         <View>
             <View style={{ marginTop: 30, marginBottom: 30 }}>
-            <Button title='Go to Practice' onPress={()=>{
+            <Button title='Square Screen' onPress={()=>{
                 props.navigation.navigate('Practice')
             }} />
             </View>
             <View style={{ marginBottom: 30 }}>
-                <Button title='Go to Practice2' onPress={() => {
+                <Button title='Color Counter' onPress={() => {
                     props.navigation.navigate('Practice2')
                 }} />
             </View>
             <View style={{ marginBottom: 30 }}>
-                <Button title='Go to Practice3' onPress={() => {
+                <Button title='Counter' onPress={() => {
                     props.navigation.navigate('Count')
                 }} />
             </View>
             <View style={{ marginBottom: 30 }}>
-                <Button title='Go to Practice4' onPress={() => {
+                <Button title='Password Input' onPress={() => {
                     props.navigation.navigate('TextInput')
                 }} />
             </View>       

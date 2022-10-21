@@ -14,7 +14,7 @@ const [text,changeText] = useState(' ')
                    autoCorrect={false}
                    autoCapitalize='none'            
         />
-        <Text style={{fontSize:30,color}}>{text}</Text>
+        <Text style={{fontSize:30}}>{text}</Text>
         {text.length<5?<Text>The length of the password must be atleast 5 letters.</Text>:null}
     </View>)
 }
