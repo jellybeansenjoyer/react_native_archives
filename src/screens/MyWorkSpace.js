@@ -19,6 +19,11 @@ const MyWorkSpace = (props)=>{
                     props.navigation.navigate('Count')
                 }} />
             </View>
+            <View style={{ marginBottom: 30 }}>
+                <Button title='Go to Practice4' onPress={() => {
+                    props.navigation.navigate('TextInput')
+                }} />
+            </View>       
         </View>
     )
 }
