@@ -13,8 +13,10 @@ import screen from "./src/screens/PracticeScreen2";
 import ReusableComp from "./src/screens/ReusableComp";
 import Counter from "./src/screens/Counter";
 import TextInputScreen from "./src/screens/TextInputScreen";
+import LayoutScreen from "./src/screens/LayoutScreen";
 const navigator = createStackNavigator(
   {
+    Layout:LayoutScreen,
     TextInput:TextInputScreen,
     Count:Counter,
     Reusable:ReusableComp,

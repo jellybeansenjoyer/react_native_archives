@@ -24,6 +24,11 @@ const MyWorkSpace = (props)=>{
                     props.navigation.navigate('TextInput')
                 }} />
             </View>       
+            <View style={{ marginBottom: 30 }}>
+                <Button title='Layout Shift' onPress={() => {
+                    props.navigation.navigate('Layout')
+                }} />
+            </View>
         </View>
     )
 }
