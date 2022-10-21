@@ -41,6 +41,7 @@ return (<View>
     }} decrease={() => {
         change("blue", FACTOR*-1)
     }} />
+    
     <View style={{height:100 , width:100, backgroundColor:`rgb(${red},${green},${blue})`}} />
     </View>)
 }
