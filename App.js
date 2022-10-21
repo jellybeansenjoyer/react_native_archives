@@ -11,8 +11,10 @@ import PracticeScreen from "./src/screens/PracticeScreen";
 import MyWorkSpace from "./src/screens/MyWorkSpace";
 import screen from "./src/screens/PracticeScreen2";
 import ReusableComp from "./src/screens/ReusableComp";
+import Counter from "./src/screens/Counter";
 const navigator = createStackNavigator(
   {
+    Count:Counter,
     Reusable:ReusableComp,
     Practice2:screen,
     Work:MyWorkSpace,
